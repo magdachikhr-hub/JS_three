@@ -54,5 +54,22 @@ console.log(userName.trim());
 console.log(userName.trimEnd());
 console.log(userName.trimStart());
 
+//split()
+
+let splitted = textTwo.split(" ");
+
+// let splitted = textTwo.split(" ").toSpliced(3,3, "bye");
+console.log(splitted);
+
+//slice
+let message = "hi, how are you?";
+
+console.log(message.slice(0, 2)); //from where to where to cut
+console.log(message.slice(4, 7));
+
 //chaining
 
+let myEmail = "magdaaa@gmail.ge";
+
+console.log(myEmail.indexOf("@"));
+console.log(myEmail.slice(myEmail.indexOf("@") + 1));
