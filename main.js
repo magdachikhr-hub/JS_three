@@ -18,4 +18,41 @@
 // let item;
 
 let email = "chikhradzemagda@itvet.com";
-console.log(email.indexOf("@"));
+// console.log(email.indexOf("@"));
+//let index email.indexOf("@");
+//console.log(index);
+
+//uppercase
+console.log(email.toLocaleUpperCase());
+
+let upperCaseMail = email.toLocaleUpperCase();
+
+console.log(upperCaseMail);
+
+//includes()
+let containsGe = email.includes(".ge");
+console.log(containsGe);
+
+let containsCom = email.includes(".com");
+console.log(containsCom);
+
+let textOne = "i love javascript";
+let containsDot = textOne.includes(".");
+console.log(containsDot);
+
+let containsSpace = textOne.includes(" ");
+console.log(containsSpace);
+
+//replace()
+let textTwo = "helllooo i am magda i love coding";
+console.log(textTwo.replace("helllooo", "hi"));
+console.log(textTwo.replaceAll("i", "you"));
+
+//trim()
+let userName = "      madu       ";
+console.log(userName.trim());
+console.log(userName.trimEnd());
+console.log(userName.trimStart());
+
+//chaining
+
