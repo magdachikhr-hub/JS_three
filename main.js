@@ -81,3 +81,7 @@ let myEmail = "magdaachikhradze@gmail.ge";
 let indexOfAt = myEmail.indexOf("@");
 console.log(indexOfAt);
 console.log(myEmail.slice(0, 16));
+
+let paragraph = "        javascript is programming language          ";
+
+console.log(paragraph.replace("javascript", "python").toUpperCase().trim());
