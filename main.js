@@ -69,7 +69,15 @@ console.log(message.slice(4, 7));
 
 //chaining
 
-let myEmail = "magdaaa@gmail.ge";
+let myEmail = "magdaachikhradze@gmail.ge";
 
-console.log(myEmail.indexOf("@"));
-console.log(myEmail.slice(myEmail.indexOf("@") + 1));
+// let indexOfAt = myEmail.indexOf("@");
+
+// console.log(myEmail.indexOf("@"));
+// console.log(myEmail.slice(myEmail.indexOf("@") + 1));
+// console.log(myEmail.slice(indexOfAt + 1));
+// console.log(myEmail.indexOf("@") + 1);
+
+let indexOfAt = myEmail.indexOf("@");
+console.log(indexOfAt);
+console.log(myEmail.slice(0, 16));
